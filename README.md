@@ -1,4 +1,4 @@
-# *Brucella* strain zoonotic potential predict models
+# *Brucella* strain zoonotic potential prediction models
 This repository contains the code and data to reproduce all analyses from the "Machine learning based on pangenome-wide association studies reveals the impact of host source on the zoonotic potential of closely related bacterial pathogens" paper.  
 ## Requirements
   We recommend using Anaconda3 to create a conda python environment for this project. The environment configuration file **environment.yaml** is provided in the repository.  
