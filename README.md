@@ -7,13 +7,30 @@ This repository contains the code and data to reproduce all analyses from the "M
 
 RAM: ≥16 GB  
   
-CPU: Support Intel(R) Extension for Scikit-learn  
+CPU: Support Intel&reg; Extension for Scikit-learn  
 
 ## Usage  
 1.Create the conda environment: `conda env create -f environment.yaml -n ml-enviroment`  
 
   
-2.Ensure the **Brucella-strain-zoonotic-potential-predict-model.ipynb** and **Data** folder are in the same directory.  
+2.Data Preparation:  
+- Unzip **`Data.zip`**
+- Verify the **`Data`** directory contains these files: 
+  - Decision_value_species_host.xlsx  
+  - gene_presence_absence.csv  
+  - Significant_genes.csv  
+  - Species host of Brucella strains.xlsx 
+  - trait.csv
+    
+File Structure:  
+
+├── Brucella-strain-zoonotic-potential-predict-model.ipynb  
+└── Data/  
+&emsp;&emsp;├── Decision_value_species_host.xlsx  
+&emsp;&emsp;├── gene_presence_absence.csv  
+&emsp;&emsp;├── Significant_genes.csv  
+&emsp;&emsp;├── Species host of Brucella strains.xlsx  
+&emsp;&emsp;└── trait.csv  
 
   
 3.Notebook to run:   `Brucella-strain-zoonotic-potential-predict-model.ipynb`  
@@ -21,7 +38,7 @@ CPU: Support Intel(R) Extension for Scikit-learn
   
 4.Execute the notebook cells sequentially.  
 
-##Contact
+## Contact
 If you have any comments, questions or suggestions, please contact:  
 
 Cheng Han, E-mail: [hancheng0099@163.com](hancheng0099@163.com)
