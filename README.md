@@ -22,15 +22,15 @@ CPU: Support Intel&reg; Extension for Scikit-learn
   - Species host of Brucella strains.xlsx 
   - trait.csv
     
-File Structure:  
+- File Structure:  
 
-├── Brucella-strain-zoonotic-potential-predict-model.ipynb  
-└── Data/  
-&emsp;&emsp;├── Decision_value_species_host.xlsx  
-&emsp;&emsp;├── gene_presence_absence.csv  
-&emsp;&emsp;├── Significant_genes.csv  
-&emsp;&emsp;├── Species host of Brucella strains.xlsx  
-&emsp;&emsp;└── trait.csv  
+&emsp;&emsp;├── Brucella-strain-zoonotic-potential-predict-model.ipynb  
+&emsp;&emsp;└── Data/  
+&emsp;&emsp;&emsp;&emsp;├── Decision_value_species_host.xlsx  
+&emsp;&emsp;&emsp;&emsp;├── gene_presence_absence.csv  
+&emsp;&emsp;&emsp;&emsp;├── Significant_genes.csv  
+&emsp;&emsp;&emsp;&emsp;├── Species host of Brucella strains.xlsx  
+&emsp;&emsp;&emsp;&emsp;└── trait.csv  
 
   
 3.Notebook to run:   `Brucella-strain-zoonotic-potential-predict-model.ipynb`  
