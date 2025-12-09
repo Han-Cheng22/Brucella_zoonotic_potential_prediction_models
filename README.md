@@ -9,6 +9,7 @@ RAM: ≥16 GB
   
 CPU: Support Intel&reg; Extension for Scikit-learn  
 
+System: Windows
 ## Usage  
 1.Create the conda environment: `conda env create -f environment.yaml -n ml-enviroment`  
 
@@ -37,7 +38,8 @@ CPU: Support Intel&reg; Extension for Scikit-learn
 
   
 4.Execute the notebook cells sequentially.  
-
+## Note
+The code defaults to using all system resources via n_jobs=-1. To limit usage, adjust this parameter in relevant code sections to a smaller value (e.g., 5 or 10).
 ## Contact
 If you have any comments, questions or suggestions, please contact:  
 
